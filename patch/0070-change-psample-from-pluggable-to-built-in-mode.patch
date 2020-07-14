@@ -1,0 +1,34 @@
+From 0b4c004caac70b7473aef223cce6406cb6135bc6 Mon Sep 17 00:00:00 2001
+From: keboliu <kebol@mellanox.com>
+Date: Tue, 14 Jul 2020 11:37:19 +0800
+Subject: [PATCH] change psample from pluggable to built in mode
+
+---
+ debian/build/build_amd64_none_amd64/.config | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/debian/build/build_amd64_none_amd64/.config b/debian/build/build_amd64_none_amd64/.config
+index 7e1c347..25dfbbd 100644
+--- a/debian/build/build_amd64_none_amd64/.config
++++ b/debian/build/build_amd64_none_amd64/.config
+@@ -47,8 +47,6 @@ CONFIG_DEFCONFIG_LIST="/lib/modules/$UNAME_RELEASE/.config"
+ CONFIG_IRQ_WORK=y
+ CONFIG_BUILDTIME_EXTABLE_SORT=y
+ CONFIG_THREAD_INFO_IN_TASK=y
+-CONFIG_PSAMPLE=m
+-CONFIG_NET_ACT_SAMPLE=m
+ 
+ #
+ # General setup
+@@ -1763,7 +1761,7 @@ CONFIG_NFC_PN533_USB=m
+ # CONFIG_NFC_PN533_I2C is not set
+ # CONFIG_NFC_MICROREAD_MEI is not set
+ # CONFIG_NFC_ST95HF is not set
+-CONFIG_PSAMPLE=m
++CONFIG_PSAMPLE=y
+ CONFIG_LWTUNNEL=y
+ CONFIG_DST_CACHE=y
+ CONFIG_NET_DEVLINK=m
+-- 
+1.9.1
+
