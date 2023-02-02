@@ -150,6 +150,7 @@ kernel-compat-always-include-linux-compat.h-from-net-compat.patch
 0160-platform-mellanox-Introduce-support-for-COMe-NVSwitc.patch
 0161-platform-x86-mlx-platform-Add-support-for-new-system.patch
 0162-platform-mellanox-Add-COME-board-revision-register.patch
+0163-platform-mellanox-Introduce-support-for-rack-manager.patch
 0164-hwmon-jc42-Add-support-for-Seiko-Instruments-S-34TS0.patch
 0165-platform-mellanox-mlxreg-io-Add-locking-for-io-opera.patch
 0167-leds-mlxreg-Send-udev-change-event.patch
