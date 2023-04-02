@@ -223,6 +223,7 @@ kernel-compat-always-include-linux-compat.h-from-net-compat.patch
 0275-mlxsw-Use-u16-for-local_port-field-instead-of-u8.patch
 0276-mlxsw-minimal-Change-type-for-local-port.patch
 0277-mlxsw-i2c-Fix-chunk-size-setting-in-output-mailbox-b.patch
+0278-DS-TMP-e1000e-skip-NVM-checksum.patch
 1000-platform-mellanox-Modify-reset-causes-description.patch
 1001-platform-mellanox-Add-field-upgrade-capability-regis.patch
 
